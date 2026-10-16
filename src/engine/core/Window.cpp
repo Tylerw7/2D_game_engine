@@ -26,3 +26,5 @@ Window::~Window() {
 bool Window::shouldClose() const { return glfwWindowShouldClose(m_window); }
 void Window::pollEvents()        { glfwPollEvents(); }
 void Window::swapBuffers()       { glfwSwapBuffers(m_window); }
+
+GLFWwindow* Window::handle() const {return m_window;}

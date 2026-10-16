@@ -175,6 +175,30 @@ engine/fast:
 	cd /Users/tylerwettach/Desktop/C++/game_engine/engine/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine.dir/build.make src/engine/CMakeFiles/engine.dir/build
 .PHONY : engine/fast
 
+core/Input.o: core/Input.cpp.o
+.PHONY : core/Input.o
+
+# target to build an object file
+core/Input.cpp.o:
+	cd /Users/tylerwettach/Desktop/C++/game_engine/engine/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine.dir/build.make src/engine/CMakeFiles/engine.dir/core/Input.cpp.o
+.PHONY : core/Input.cpp.o
+
+core/Input.i: core/Input.cpp.i
+.PHONY : core/Input.i
+
+# target to preprocess a source file
+core/Input.cpp.i:
+	cd /Users/tylerwettach/Desktop/C++/game_engine/engine/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine.dir/build.make src/engine/CMakeFiles/engine.dir/core/Input.cpp.i
+.PHONY : core/Input.cpp.i
+
+core/Input.s: core/Input.cpp.s
+.PHONY : core/Input.s
+
+# target to generate assembly for a file
+core/Input.cpp.s:
+	cd /Users/tylerwettach/Desktop/C++/game_engine/engine/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine.dir/build.make src/engine/CMakeFiles/engine.dir/core/Input.cpp.s
+.PHONY : core/Input.cpp.s
+
 core/Window.o: core/Window.cpp.o
 .PHONY : core/Window.o
 
@@ -212,6 +236,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... engine"
+	@echo "... core/Input.o"
+	@echo "... core/Input.i"
+	@echo "... core/Input.s"
 	@echo "... core/Window.o"
 	@echo "... core/Window.i"
 	@echo "... core/Window.s"

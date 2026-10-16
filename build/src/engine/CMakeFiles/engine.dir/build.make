@@ -86,17 +86,33 @@ src/engine/CMakeFiles/engine.dir/core/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine.dir/core/Window.cpp.s"
 	cd /Users/tylerwettach/Desktop/C++/game_engine/engine/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tylerwettach/Desktop/C++/game_engine/engine/src/engine/core/Window.cpp -o CMakeFiles/engine.dir/core/Window.cpp.s
 
+src/engine/CMakeFiles/engine.dir/core/Input.cpp.o: src/engine/CMakeFiles/engine.dir/flags.make
+src/engine/CMakeFiles/engine.dir/core/Input.cpp.o: /Users/tylerwettach/Desktop/C++/game_engine/engine/src/engine/core/Input.cpp
+src/engine/CMakeFiles/engine.dir/core/Input.cpp.o: src/engine/CMakeFiles/engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerwettach/Desktop/C++/game_engine/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/engine/CMakeFiles/engine.dir/core/Input.cpp.o"
+	cd /Users/tylerwettach/Desktop/C++/game_engine/engine/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine.dir/core/Input.cpp.o -MF CMakeFiles/engine.dir/core/Input.cpp.o.d -o CMakeFiles/engine.dir/core/Input.cpp.o -c /Users/tylerwettach/Desktop/C++/game_engine/engine/src/engine/core/Input.cpp
+
+src/engine/CMakeFiles/engine.dir/core/Input.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine.dir/core/Input.cpp.i"
+	cd /Users/tylerwettach/Desktop/C++/game_engine/engine/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tylerwettach/Desktop/C++/game_engine/engine/src/engine/core/Input.cpp > CMakeFiles/engine.dir/core/Input.cpp.i
+
+src/engine/CMakeFiles/engine.dir/core/Input.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine.dir/core/Input.cpp.s"
+	cd /Users/tylerwettach/Desktop/C++/game_engine/engine/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tylerwettach/Desktop/C++/game_engine/engine/src/engine/core/Input.cpp -o CMakeFiles/engine.dir/core/Input.cpp.s
+
 # Object files for target engine
 engine_OBJECTS = \
-"CMakeFiles/engine.dir/core/Window.cpp.o"
+"CMakeFiles/engine.dir/core/Window.cpp.o" \
+"CMakeFiles/engine.dir/core/Input.cpp.o"
 
 # External object files for target engine
 engine_EXTERNAL_OBJECTS =
 
 src/engine/libengine.a: src/engine/CMakeFiles/engine.dir/core/Window.cpp.o
+src/engine/libengine.a: src/engine/CMakeFiles/engine.dir/core/Input.cpp.o
 src/engine/libengine.a: src/engine/CMakeFiles/engine.dir/build.make
 src/engine/libengine.a: src/engine/CMakeFiles/engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/tylerwettach/Desktop/C++/game_engine/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libengine.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/tylerwettach/Desktop/C++/game_engine/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libengine.a"
 	cd /Users/tylerwettach/Desktop/C++/game_engine/engine/build/src/engine && $(CMAKE_COMMAND) -P CMakeFiles/engine.dir/cmake_clean_target.cmake
 	cd /Users/tylerwettach/Desktop/C++/game_engine/engine/build/src/engine && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/engine.dir/link.txt --verbose=$(VERBOSE)
 

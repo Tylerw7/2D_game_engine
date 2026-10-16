@@ -20,3 +20,5 @@ target_include_directories(glad PUBLIC external/glad/include)
 
 add_subdirectory(src/engine)
 add_subdirectory(sandbox)
+
+target_compile_definitions(glfw INTERFACE GLFW_INCLUDE_NONE)

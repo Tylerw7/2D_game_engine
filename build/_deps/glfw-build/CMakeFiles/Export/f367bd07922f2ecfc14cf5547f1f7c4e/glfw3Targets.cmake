@@ -59,6 +59,7 @@ endif()
 add_library(glfw STATIC IMPORTED)
 
 set_target_properties(glfw PROPERTIES
+  INTERFACE_COMPILE_DEFINITIONS "GLFW_INCLUDE_NONE"
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
   INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:Threads::Threads>;-framework Cocoa;-framework IOKit;-framework CoreFoundation"
 )

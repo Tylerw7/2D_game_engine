@@ -13,6 +13,9 @@ class Window {
       bool shouldClose() const;
       void pollEvents();
       void swapBuffers();
+
+      GLFWwindow* handle() const;
+
     private:
       GLFWwindow* m_window = nullptr;  
 };
