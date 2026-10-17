@@ -667,8 +667,11 @@ sandbox/CMakeFiles/sandbox.dir/main.cpp.o: /Users/tylerwettach/Desktop/C++/game_
   /Users/tylerwettach/Desktop/C++/game_engine/engine/external/glad/include/KHR/khrplatform.h \
   /Users/tylerwettach/Desktop/C++/game_engine/engine/external/glad/include/glad/gl.h \
   /Users/tylerwettach/Desktop/C++/game_engine/engine/src/engine/core/Input.hpp \
-  /Users/tylerwettach/Desktop/C++/game_engine/engine/src/engine/core/Window.hpp
+  /Users/tylerwettach/Desktop/C++/game_engine/engine/src/engine/core/Window.hpp \
+  /Users/tylerwettach/Desktop/C++/game_engine/engine/src/engine/gfx/Shader.hpp
 
+
+/Users/tylerwettach/Desktop/C++/game_engine/engine/src/engine/gfx/Shader.hpp:
 
 /Users/tylerwettach/Desktop/C++/game_engine/engine/external/glad/include/glad/gl.h:
 

@@ -223,6 +223,30 @@ core/Window.cpp.s:
 	cd /Users/tylerwettach/Desktop/C++/game_engine/engine/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine.dir/build.make src/engine/CMakeFiles/engine.dir/core/Window.cpp.s
 .PHONY : core/Window.cpp.s
 
+gfx/Shader.o: gfx/Shader.cpp.o
+.PHONY : gfx/Shader.o
+
+# target to build an object file
+gfx/Shader.cpp.o:
+	cd /Users/tylerwettach/Desktop/C++/game_engine/engine/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine.dir/build.make src/engine/CMakeFiles/engine.dir/gfx/Shader.cpp.o
+.PHONY : gfx/Shader.cpp.o
+
+gfx/Shader.i: gfx/Shader.cpp.i
+.PHONY : gfx/Shader.i
+
+# target to preprocess a source file
+gfx/Shader.cpp.i:
+	cd /Users/tylerwettach/Desktop/C++/game_engine/engine/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine.dir/build.make src/engine/CMakeFiles/engine.dir/gfx/Shader.cpp.i
+.PHONY : gfx/Shader.cpp.i
+
+gfx/Shader.s: gfx/Shader.cpp.s
+.PHONY : gfx/Shader.s
+
+# target to generate assembly for a file
+gfx/Shader.cpp.s:
+	cd /Users/tylerwettach/Desktop/C++/game_engine/engine/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine.dir/build.make src/engine/CMakeFiles/engine.dir/gfx/Shader.cpp.s
+.PHONY : gfx/Shader.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -242,6 +266,9 @@ help:
 	@echo "... core/Window.o"
 	@echo "... core/Window.i"
 	@echo "... core/Window.s"
+	@echo "... gfx/Shader.o"
+	@echo "... gfx/Shader.i"
+	@echo "... gfx/Shader.s"
 .PHONY : help
 
 

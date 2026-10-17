@@ -1,2 +1,2 @@
-/usr/bin/ar qc libengine.a CMakeFiles/engine.dir/core/Window.cpp.o CMakeFiles/engine.dir/core/Input.cpp.o
+/usr/bin/ar qc libengine.a CMakeFiles/engine.dir/core/Window.cpp.o CMakeFiles/engine.dir/core/Input.cpp.o CMakeFiles/engine.dir/gfx/Shader.cpp.o
 /usr/bin/ranlib libengine.a

@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/engine.dir/core/Input.cpp.o.d"
   "CMakeFiles/engine.dir/core/Window.cpp.o"
   "CMakeFiles/engine.dir/core/Window.cpp.o.d"
+  "CMakeFiles/engine.dir/gfx/Shader.cpp.o"
+  "CMakeFiles/engine.dir/gfx/Shader.cpp.o.d"
   "libengine.a"
   "libengine.pdb"
 )
